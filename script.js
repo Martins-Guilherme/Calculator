@@ -22,18 +22,18 @@ class Calculator {
     const integerDigits = parseFloat(stringNumber.split(".")[0]);
     const decimalDigits = stringNumber.split(".")[1];
     let integerDisplay;
-    if (isNaN(integerDigits)){
-      integerDisplay = '';
-    }else{
+    if (isNaN(integerDigits)) {
+      integerDisplay = "";
+    } else {
       integerDisplay = integerDigits.toLocaleString("en", {
         maximumFractionDigits: 0,
-      })
+      });
     }
-    
-    if (decimalDigits != null){
-      return `${integerDisplay}.${decimalDigits}`
-    }else{
-      return integerDisplay
+
+    if (decimalDigits != null) {
+      return `${integerDisplay}.${decimalDigits}`;
+    } else {
+      return integerDisplay;
     }
   }
 
@@ -41,7 +41,7 @@ class Calculator {
     this.currentOperand = this.currentOperand.toString().slice(0, -1);
   }
 
-  // Realiza a conversão para float 
+  // Realiza a conversão para float
   calculate() {
     let result;
 
@@ -72,7 +72,7 @@ class Calculator {
     this.previousOperand = "";
   }
 
-  // Recebe o operador aritmético para realizar o cálculo verifica se está vazio para não gerar erro e 
+  // Recebe o operador aritmético para realizar o cálculo verifica se está vazio para não gerar erro e
   // envia para o método calculate.
   choseOperation(operation) {
     if (this.currentOperand.trim() === "") return;
@@ -85,7 +85,7 @@ class Calculator {
     this.currentOperand = "";
   }
 
-  // Verifia a condição de ter uma casa decimal e armazena o valor para o operador atual. 
+  // Verifia a condição de ter uma casa decimal e armazena o valor para o operador atual.
   appendNumber(number) {
     if (this.currentOperand.includes(".") && number == ".") return;
     this.currentOperand = `${this.currentOperand}${number.toString()}`;
@@ -99,10 +99,12 @@ class Calculator {
   }
   // Atualiza o output do display, renderiza o novo valor.
   updateDisplay() {
-    this.previousOperandTextElement.innerText = `${this.previousOperand} ${
-      this.operation || ""
-    }`;
-    this.currentOperandTextElement.innerText = this.formatDisplayNumber(this.currentOperand);
+    this.previousOperandTextElement.innerText = `${this.formatDisplayNumber(
+      this.previousOperand
+    )} ${this.operation || ""}`;
+    this.currentOperandTextElement.innerText = this.formatDisplayNumber(
+      this.currentOperand
+    );
   }
 }
 
