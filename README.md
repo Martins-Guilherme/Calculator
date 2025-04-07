@@ -54,4 +54,4 @@ Contribuições são bem-vindas! Se você tiver alguma sugestão de melhoria, co
 
 ### Autor
 
-Guilherme Martins - Perfil no [GitHub](https://github.com/Martins-Guilherme/)
+Guilherme Martins - Perfil no [GitHub](https://github.com/Martins-Guilherme/) - [Linkedin](https://www.linkedin.com/in/guilherme-martins6991/)
