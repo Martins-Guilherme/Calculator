@@ -30,15 +30,17 @@ A Calculadora V1.0 foi desenvolvida como um projeto de aprendizado para praticar
 ![Imagem da calculadora](https://github.com/Martins-Guilherme/Calculator/blob/main/img/CalculadoraJSDecimalNumber.png)
 
 
-![Demonstração da Calculadora](https://github.com/Martins-Guilherme/Calculator/tree/main/img/Gravação-de-tela-de-2025-04-06-20-44-16.gif)
+![Demonstração da Calculadora](https://github.com/Martins-Guilherme/Calculator/blob/main/img/Grava%C3%A7%C3%A3o-de-tela-de-2025-04-06-20-44-16.gif)
 
 ### Próximos Passos (Melhorias Futuras)
+
 <ol>
   <li>Implementar operações mais avançadas (ex: porcentagem, raiz quadrada).</li>
   <li>Adicionar histórico de cálculos.</li>
   <li>Melhorar a interface do usuário.</li>
   <li>Implementar tratamento de erros mais robusto (ex: divisão por zero).</li>
 </ol>
+
 ### Contribuição
 
 Contribuições são bem-vindas! Se você tiver alguma sugestão de melhoria, correção de bugs ou novas funcionalidades, sinta-se à vontade para abrir uma Issue ou enviar um Pull Request.  
@@ -49,5 +51,7 @@ Contribuições são bem-vindas! Se você tiver alguma sugestão de melhoria, co
   <li>Faça o Push para a Branch (git push origin feature/nova-funcionalidade).</li>
   <li>Abra um Pull Request.</li>
 </ol>
+
 ### Autor
-Guilherme Martins - Perfil no [GitHub](https://github.com/Martins-Guilherme/)
+
+Guilherme Martins - Perfil no [GitHub](https://github.com/Martins-Guilherme/) - [Linkedin](https://www.linkedin.com/in/guilherme-martins6991/)
